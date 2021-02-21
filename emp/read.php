@@ -11,7 +11,7 @@ switch($requestMethod) {
 		$api->getEmployee($empId);
 		break;
 	default:
-	header("HTTP/1.0 405 Method Not Allowed");
+	header("HTTP/1.0 405 Method Not Allow");
 	break;
 }
 ?>
